@@ -1,0 +1,125 @@
+
+body {
+  background-image: url('/assets/img/rose-1600.jpg');
+  background-repeat:repeat-x;
+  background-attachment: fixed;
+}
+.bar {
+  border: solid rgb(50, 90, 130);
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(100, 140, 190);
+}
+
+.content{
+  border-collapse: collapse;
+  height: 100%;
+  margin: 0 auto;
+  background-color: rgb(90,130,180);
+  display: grid;
+  grid-template-areas: 
+    "nav nav nav"
+    "left main right";
+  grid-template-columns:  1fr 2fr 1fr;
+  width: 90%;
+}
+.current {
+  color: red;
+}
+.centre {
+  text-align: center;
+  grid-area: main;
+}
+.left {
+  grid-area: left;
+}
+.right {
+  grid-area: right;
+}
+.nav {
+  grid-area: nav;
+}
+.ad{ 
+  border-radius: 100%;
+  color: white;
+  display: inline-block;
+  animation: admination 1s infinite 0s linear;
+}
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: bisque;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 12px 16px;
+  margin: auto auto;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  min-height: 3em;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+@media (min-width: 37.5em) { /* 600px */
+  body {
+      grid-template-columns: 1fr 2fr;
+      grid-template-areas: 
+      "right main"
+      "left  main";
+  }
+}
+@media (min-width: 48em) { /* 768px */
+  body { 
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-areas: 
+  "left main right";
+  }
+
+@media (min-width: 60em) { 
+  body { 
+    max-width: 58em; 
+    margin: 0 auto;
+  }
+  body {
+    grid-template-areas:
+        "left main right";
+  }
+}
+@media (min-width: 80em) { 
+  body { 
+      max-width: 77em;
+      margin: 0 auto;
+  }  nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+}}
