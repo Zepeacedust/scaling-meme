@@ -1,6 +1,6 @@
 
 body {
-  background-image: url('/assets/img/rose-1600.jpg');
+  background-image: url('/vefhonnun/assets/img/rose-960.jpg');
   background-repeat:repeat-x;
   background-attachment: fixed;
 }
@@ -28,9 +28,9 @@ tr:nth-child(even) {
   background-color: rgb(90,130,180);
   display: grid;
   grid-template-areas: 
-    "nav nav nav"
-    "left main right";
-  grid-template-columns:  1fr 2fr 1fr;
+    "nav nav"
+    "main right";
+  grid-template-columns:  3fr 1fr;
   width: 90%;
 }
 .current {
