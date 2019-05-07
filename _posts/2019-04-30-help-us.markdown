@@ -6,15 +6,10 @@
 
 <form id="frm1" action="/action_page.php">
   First name: <input type="text" name="fname" value="Donald"><br>
-  Last name: <input type="text" name="lname" value="Duck"><br><br>
+  Last name: <input type="text" name="lname" value="Duck"><br><br>c
 </form> 
 
-<p>Click "Try it" to display the value of each element in the form.</p>
-
 <button onclick="exportToCsv()">Try it</button>
-
-<p id="demo"></p>
-
 <script>
 function exportToCsv() {
         var myCsv = myFunction();
