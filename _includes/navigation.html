@@ -1,0 +1,6 @@
+<nav class="valmynd2">
+    {% for item in site.data.navigation %}
+      <a class="valmynd" href="{{ item.link }}" {% if page.url == item.link %} class="current" {% endif %}>|{{ item.name }}|</a>
+    {% endfor %}
+    
+  </nav>
