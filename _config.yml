@@ -1,4 +1,4 @@
-baseurl: "/vefhonnun"
+baseurl: "/lokaverk"
 collections:
   authors:
     output: true
