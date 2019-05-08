@@ -7,11 +7,16 @@ layout: default
 <p>
   {{ page.date | date_to_string }}
 </p>
-
-
-
 {{ content }}
-{% for item in site.data.navigation %}
+<h2>lagalisti</h2>
+<hr>
+{% for item in site.data.log %}
+{% if page.title == item.nafn %}
+{% for lag in item.log %}
+<p>{{ lag }}</p>
+{% endfor %}
+{% endif %}
+{% endfor %}
 <fieldset class="clubField" id="form">
   <legend>Aðdáðendaklúbbur fyrir {{page.title}}</legend>
       <form class="klubbur" onsubmit="submission()">
