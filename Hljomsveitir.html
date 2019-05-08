@@ -1,0 +1,14 @@
+---
+title: Blog
+layout: default
+---
+<h1>Appearing</h1>
+
+<ul>
+  {% for hljomsveit in site.hljomsveitir %}
+    <li>
+      <h2><a href="{{ site.baseurl }}{{ hljomsveit.url }}">{{ hljomsveit.title }}</a></h2>
+      <p>{{ hljomsveit.excerpt }}</p>
+    </li>
+  {% endfor %}
+</ul>

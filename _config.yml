@@ -1,6 +1,6 @@
 baseurl: "/lokaverk"
 collections:
-  authors:
+  hljomsveitir:
     output: true
 
 defaults:
