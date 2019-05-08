@@ -20,18 +20,18 @@ th, td {
 tr:nth-child(even) {
   background-color: rgb(100, 140, 190);
 }
-
-.content{
+.centre {
   border-collapse: collapse;
-  height: 100%;
   margin: 0 auto;
   background-color: rgb(90,130,180);
+  width: 90%;
+}
+.content{
   display: grid;
   grid-template-areas: 
     "nav nav"
     "main right";
   grid-template-columns:  3fr 1fr;
-  width: 90%;
 }
 .current {
   color: red;

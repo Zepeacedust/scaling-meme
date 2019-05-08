@@ -6,9 +6,9 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: "posts"
+      type: "hljomsveitir"
     values:
-      layout: "post"
+      layout: "hljomsveit"
   - scope:
       path: ""
     values:

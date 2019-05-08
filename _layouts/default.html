@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	    <meta charset="UTF-8">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, height=device-height">
+		<title>{{ page.title }}</title>
 		<title> {{ page.title }}</title>
 		<link rel="stylesheet" href="/lokaverk/assets/css/styles.css">
 	</head> 
 	<body>
+		<div class="centre">
+			<header>
+				{% include navigation.html %}
+			</header>
 		<div class ="content">
+			
 			<div class  = "main">
-        	    {{ content }}
+				{{ content }}
 			</div>
 			<div class = "right">
-				<p>bees</p>
+				
 			</div>
 		</div>
+	</div>
 	</body>
 </html>
