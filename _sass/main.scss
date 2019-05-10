@@ -83,6 +83,7 @@ body {
   float: right;
 }
 .haus{
+  grid-auto-rows: 1fr 1fr 1fr;
   background-color: #40b040;
   width: 100%;
   height: 5em;
