@@ -88,3 +88,11 @@ body {
 
   padding-right: 1em;
 }
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(100, 140, 190);
+}

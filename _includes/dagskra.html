@@ -1,10 +1,10 @@
 <legend>Dagskrá</legend>
-<ul class="">
+<table class="">
     {% for dagur in site.data.dagskra %}
-    <li>
-        <h3>{{ dagur.nafn }}</h3>
-        <p>{{ dagur.dagskra }}</p>
-    </li>
+    <tr>
+        <td>{{ dagur.nafn }}</td>
+        <td>{{ dagur.dagskra }}</td>
+    </tr>
     {% endfor %}
-	</ul>
+</table>
 </fieldset>
