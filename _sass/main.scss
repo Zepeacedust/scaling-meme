@@ -83,20 +83,10 @@ body {
   background-color: #40b040;
   display: flex;
   flex-flow: row;
-  position: fixed;
   height: 2em;
-  width: 86.2%;
   justify-content: space-around;
 }
 .navigation {
   font-size: 1.6em;
   font-weight: bold;
 }
-.dropdown-content :visited,
-.dropdown-content :active {
-  box-shadow: inset 0 0 5px black
-}
-
-
-
-
