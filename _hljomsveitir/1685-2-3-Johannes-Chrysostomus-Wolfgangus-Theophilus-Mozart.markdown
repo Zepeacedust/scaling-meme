@@ -1,4 +1,5 @@
 ---
-author: benni
+author: Guðmundur
+title: Wolfgang Adam Mozart
 ---
 beeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeees

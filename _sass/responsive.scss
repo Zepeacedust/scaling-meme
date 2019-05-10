@@ -1,0 +1,33 @@
+@media (min-width: 37.5em) { /* 600px */
+    body {
+        grid-template-columns: 1fr 2fr;
+        grid-template-areas: 
+        "right main"
+        "left  main";
+    }
+  }
+  @media (min-width: 48em) { /* 768px */
+    body { 
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: 
+    "left main right";
+    }
+  
+  @media (min-width: 60em) { 
+    body { 
+      max-width: 58em; 
+      margin: 0 auto;
+    }
+    body {
+      grid-template-areas:
+          "left main right";
+    }
+  }
+  @media (min-width: 80em) { 
+    body { 
+        max-width: 77em;
+        margin: 0 auto;
+    }  nav ul {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }}}
