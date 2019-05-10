@@ -2,6 +2,7 @@
     <body >
         <header>
             <div class="haus">
+                <img src="/scaling-meme/assets/img/icon.svg">
                 {% for item in site.data.navigation %}
                     <a class="valmynd" href="{{ site.baseurl }}{{ item.link}}" {% if page.url == item.link %} class="current" {% endif %}>{{ item.name }}</a>
                 {% endfor %}
