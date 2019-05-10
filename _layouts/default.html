@@ -10,17 +10,14 @@
 	<body>
 		<div class="centre">
 			<header>
-				{% include header %}
+				{% include header.html %}
 			</header>
 		<div class ="content">
-			<div>
-				{{include auglising.html}}
+			<div class="right">
+				{% include auglising.html %}
 			</div>
 			<div class  = "main">
 				{{ content }}
-			</div>
-			<div class = "right">
-				
 			</div>
 		</div>
 	</div>
