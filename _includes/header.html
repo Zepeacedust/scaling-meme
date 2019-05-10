@@ -3,7 +3,7 @@
         <header>
             <div class="haus">
                 {% for item in site.data.navigation %}
-                    <a class="navigation" href="{{ site.baseurl }}{{ item.link}}" {% if page.url == item.link %} class="current" {% endif %}>{{ item.name }}</a>
+                    <a class="valmynd" href="{{ site.baseurl }}{{ item.link}}" {% if page.url == item.link %} class="current" {% endif %}>{{ item.name }}</a>
                 {% endfor %}
             </div>
         </header>   
