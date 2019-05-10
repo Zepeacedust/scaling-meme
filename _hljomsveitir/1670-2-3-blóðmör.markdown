@@ -1,6 +1,9 @@
 ---
 title: Blóðmör
-author: benni
+author: Guðmundur
 ---
+
+Blóðmör er Þungarokkshljómsveit sem var stofnuð árið 2016 í kópavogi.
+Þeir kepptu og unnu í Músiktilraunum 2019.
 
 <iframe allow="autoplay" scrolling="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/588891627" width="100%" height="300" frameborder="no"></iframe>
