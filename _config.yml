@@ -1,4 +1,3 @@
-baseurl: "/scaling-meme"
 collections:
   hljomsveitir:
     output: true
