@@ -29,7 +29,6 @@ tr:nth-child(even) {
 .content{
   display: grid;
   grid-template-areas: 
-    "nav nav"
     "main right";
   grid-template-columns:  3fr 1fr;
 }
