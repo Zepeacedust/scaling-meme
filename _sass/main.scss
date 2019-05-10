@@ -6,7 +6,7 @@ body {
 .centre {
   border-collapse: collapse;
   margin: 0 auto;
-  background-color: rgb(90,130,180);
+  background-color: rgba(90, 131, 180, 0.9);
   width: 90%;
 }
 .content{
@@ -14,9 +14,6 @@ body {
   grid-template-areas: 
     "main right";
   grid-template-columns:  3fr 1fr;
-}
-.current {
-  color: red;
 }
 .centre {
   text-align: center;
@@ -27,9 +24,6 @@ body {
 }
 .right {
   grid-area: right;
-}
-.nav {
-  grid-area: nav;
 }
 .ad{ 
   border-radius: 100%;
@@ -89,4 +83,8 @@ body {
 .navigation {
   font-size: 1.6em;
   font-weight: bold;
+}
+.baby {
+
+  padding-right: 1em;
 }
